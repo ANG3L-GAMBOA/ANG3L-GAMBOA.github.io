@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="header">
+      <h2>Login</h2>
+      <link rel="stylesheet" href="style.css">
+    </div>
+    <form id="form" class="form">
+
+      <div class="form-control">
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="username" id="username" 
+        onkeypress=" return sololetras(event)"/>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" placeholder="@gmail.com" id="email" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="numero">Num.</label>
+        <input type="numero" placeholder="123" id="numero"
+        disabled/>
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+      </div>
+
+      <button>SEND FEEDBACK</button>
+
+    </form>
+  </div>
+
+  <script src="javascript.js"></script>
